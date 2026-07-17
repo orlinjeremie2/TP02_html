@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TechInnov Gabon</title>
+</head>
+<body>
+
+    <header>
+        <div>TechInnov</div>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Nos services</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+                <LI>actu</LI>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contactez-nous</h1>
+            <p>Une question ou un projet ? Remplissez ce formulaire et nous vous répondrons sous 24h.</p>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Nom complet :</label><br>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Ex. Jean Eyeghe">
+                </p>
+
+                <p>
+                    <label for="contact-email">Adresse e-mail :</label><br>
+                    <input type="email" id="contact-email" name="contact-email" required placeholder="jean.eyeghe@domaine.com">
+                </p>
+
+                <p>
+                    <label for="phone">Téléphone (Optionnel) :</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+241 06 00 00 00">
+                </p>
+
+                <p>
+                    <label for="subject">Sujet de votre demande :</label><br>
+                    <select id="subject" name="subject" required>
+                        <option value="">-- Veuillez choisir une option --</option>
+                        <option value="devis">Demande de devis</option>
+                        <option value="partenariat">Opportunité de partenariat</option>
+                        <option value="autre">Autre demande</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40" required placeholder="Décrivez votre projet en quelques lignes..."></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="legal" name="legal" required>
+                    <label for="legal">J'accepte que mes données soient traitées pour répondre à ma demande.</label>
+                </p>
+
+                <p>
+                    <button type="submit">Envoyer le message</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechInnov Gabon. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>

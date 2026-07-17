@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - TechInnov Gabon</title>
+    <style>
+        /* Grille CSS sémantique pour l'affichage des cartes de services */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>TechInnov</div>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html" aria-current="page">Nos services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Nos Services d'Accompagnement</h1>
+            <p>Découvrez nos solutions conçues pour propulser votre activité.</p>
+
+            <div class="grid-container">
+                <article class="card">
+                    <h3>Développement Web</h3>
+                    <p>Conception de sites vitrines et plateformes e-commerce sur-mesure, rapides et optimisés pour tous les écrans.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Applications Mobiles</h3>
+                    <p>Développement d'applications natives et hybrides performantes pour iOS et Android.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Conseil &amp; Stratégie</h3>
+                    <p>Audit complet de votre système informatique et plan stratégique de transformation numérique.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TechInnov Gabon. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
